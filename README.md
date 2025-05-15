@@ -38,6 +38,10 @@ This is a collection of notebooks and data, which will be added to throughout th
 * Finish our intro to logistic regression: [Logistic Regression.ipynb](notebooks/Logistic%20Regression.ipynb)
 * Use logistic regression to identify quasars in Sloan Digital Sky Survey data: [Logistic Regression w SDSS.ipynb](notebooks/Logistic%20Regression%20w%20SDSS.ipynb)
 
+### Week 7
+
+* Finish using logistic regression to identify quasars in Sloan Digital Sky Survey data: [Logistic Regression w SDSS.ipynb](notebooks/Logistic%20Regression%20w%20SDSS.ipynb)
+* Introduce one-vs-all for multi-class classification: [Multiclass Classification.ipynb](notebooks/Multiclass%20Classification.ipynb)
 
 ## Data Provenance
 
