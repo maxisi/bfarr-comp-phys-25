@@ -45,8 +45,19 @@ This is a collection of notebooks and data, which will be added to throughout th
 
 ### Week 8
 
+* Introduction to neural networks with flax: [Intro to Flax.ipynb](notebooks/Intro%20to%20Flax.ipynb)
 * Dense neural networks for multi-class classification: [Dense Neural Network on MNIST Digits.ipynb](notebooks/Dense%20Neural%20Network%20on%20MNIST%20Digits.ipynb)
-* Identifying members of globular cluster M4 with dense neural networks: [Dense%20Neural%20Network%20Classifier%20for%20M4.ipynb](notebooks/Dense%20Neural%20Network%20Classifier%20for%20M4.ipynb)
+* Identifying members of globular cluster M4 with dense neural networks: [Dense Neural Network Classifier for M4.ipynb](notebooks/Dense%20Neural%20Network%20Classifier%20for%20M4.ipynb)
+
+### Week 9
+
+* Wrapped up identifying members of globular cluster M4 with dense neural networks: [Dense Neural Network Classifier for M4.ipynb](notebooks/Dense%20Neural%20Network%20Classifier%20for%20M4.ipynb)
+* Use CNNs to look for volcanoes on venus: [VenusVolcanoes.ipynb](notebooks/VenusVolcanoes.ipynb)
+
+### Week 10
+
+* BONUS: Deep dive with digital signal processing and discrete Fourier transforms: [Signal Processing.ipynb](notebooks/Signal%20Processing.ipynb)
+
 
 ## Data Provenance
 
@@ -141,4 +152,13 @@ CONTAINS(
 	POINT('ICRS',gaiadr3.gaia_source.ra,gaiadr3.gaia_source.dec),
 	BOX('ICRS',246,-26.5,3,3)
 )=1
+```
+
+### LIGO data
+
+We looked at strain data from the LIGO-Hanford and LIGO-Livingston sites for GW150914, downloaded with
+
+```bash
+wget -nc https://www.gw-openscience.org/GW150914data/H-H1_LOSC_4_V2-1126259446-32.txt.gz
+wget -nc https://www.gw-openscience.org/GW150914data/L-L1_LOSC_4_V2-1126259446-32.txt.gz
 ```
