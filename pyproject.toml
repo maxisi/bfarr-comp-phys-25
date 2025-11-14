@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bfarr-comp-phys-25"
+version = "0.1.0"
+description = "Computational Physics 2025 course materials"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel==6.29.5",
+    "numpy==2.2.4",
+    "scipy==1.15.2",
+    "matplotlib==3.10.1",
+    "pandas==2.2.3",
+    "scikit-learn==1.6.1",
+    "numpyro==0.18.0",
+    "jaxlib==0.4.38; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools]
+packages = []
+
