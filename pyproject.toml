@@ -16,6 +16,7 @@ dependencies = [
     "scikit-learn==1.6.1",
     "numpyro==0.18.0",
     "jaxlib==0.4.38; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "daft-pgm",
 ]
 
 [project.optional-dependencies]
